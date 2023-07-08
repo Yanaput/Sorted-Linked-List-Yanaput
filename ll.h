@@ -11,7 +11,7 @@ public:
   void insert(int value);
   void printList();
   void printList_reverse();
-
+  int get_size(){return size;}
   ~LL();
 };
 
