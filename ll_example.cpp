@@ -16,7 +16,7 @@ int main( void )
 
    // loop while user does not choose 3
    while ( choice != 3 ) { 
-
+      int size;
       switch ( choice ) { 
          case 1:
             cout<<"Enter a number: " ;
@@ -52,7 +52,9 @@ int main( void )
             instructions();
             break;
       } // end switch
-
+      size = l.get_size;
+      if(size <= 0)
+         break;
       cout<< "? " ;
      cin>>choice ;
    } // end while
